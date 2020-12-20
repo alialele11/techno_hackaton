@@ -3,11 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using GoogleARCore;
 
-/// <summary>
-/// A planar surface in the real world detected and tracked by ARCore.
-/// </summary>
-public class TrackedPlaneVisualizer : MonoBehaviour
-{
+public class GridVisualiser : MonoBehaviour{
+
     private static int s_PlaneCount = 0;
 
     private readonly Color[] k_PlaneColors = new Color[]
